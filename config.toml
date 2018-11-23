@@ -1,0 +1,57 @@
+baseurl = "https://agarwalshubham2007.github.io"
+title = "Shubham A."
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Shubham Agarwal"
+    info = "AI Research Engineer"
+    company = "IBM Research, Cambridge, MA"
+    description = "John Doe's persfsfsdfonal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/pp.JPG"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "\"Accept who are you and your uniqueness. Define your choices and beliefs.\""
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/agarwalshubham2007"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/shubham-agarwal-26687486/"
+
+# Menu links
+# [[menu.main]]
+#     name = "Blog"
+#     weight = 2
+#     url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "/about/"
