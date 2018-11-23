@@ -1,6 +1,6 @@
 baseurl = "https://agarwalshubham2007.github.io"
 title = "Shubham A."
-theme = "hugo-coder"
+theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
